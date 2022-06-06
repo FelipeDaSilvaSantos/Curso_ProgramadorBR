@@ -1,9 +1,12 @@
+/*quadro onde todos os outros quadrados estarão inseridos*/
 .quadro{
-    width: 500px;
+    position: relative;
+    width: 700px;
     height: 400px;
     border: 1px solid black;
 }
 
+/*tamanho de todos os quadrados coloridos*/
 .quadrado{
     /*display: inline-block;*/
     width: 100px;
@@ -16,9 +19,11 @@
 
 .quadrado_blue{
     background-color: blue;
-    position: relative;
-    left: 20px;
-    top: 15px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    /*left: 400px;
+    top: 200px;*/
     /*margin-left: 34px;
     margin-top: 20px;*/
 }
