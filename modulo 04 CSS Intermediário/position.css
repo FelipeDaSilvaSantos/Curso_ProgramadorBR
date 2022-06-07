@@ -18,12 +18,13 @@
 }
 
 .quadrado_blue{
+    position: sticky;
+    top: 0px;
+    width: 100%;
     background-color: blue;
-    position: fixed;
-    bottom: 300px;
-    right: 0px;
 }
 
 .quadrado_green{
     background-color: green;
+    position: relative;;
 }
